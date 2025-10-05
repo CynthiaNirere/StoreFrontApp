@@ -1,0 +1,37 @@
+name: CI - Build & Test
+
+on:
+  push:
+    branches: [ "**" ]
+  pull_request:
+    branches: [ "**" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: 'maven'
+
+      - name: Verify Maven & Java
+        run: |
+          mvn -v
+          java -version
+
+      - name: Compile
+        run: mvn -B -q -DskipTests=true clean compile
+
+      - name: Run unit tests
+        run: mvn -B -q test
+
+      - name: Package (optional)
+        if: success()
+        run: mvn -B -q -DskipTests package
