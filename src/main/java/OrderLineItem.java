@@ -1,12 +1,10 @@
-public class orderLineItem {
+public class OrderLineItem {
 
 	CustomerOrder customerItem;
 	Item itemOrder;
 	private int quantity;
-	private Order order;
-	private Item item;
 
-	public orderLineItem() {
+	public OrderLineItem() {
 		// TODO - implement orderLineItem.orderLineItem
 		throw new UnsupportedOperationException();
 	}

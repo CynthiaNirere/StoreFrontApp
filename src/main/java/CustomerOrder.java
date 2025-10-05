@@ -4,7 +4,7 @@ public class CustomerOrder {
 
 	Shipping shippingOrder;
 	Customer customerOrder;
-	Collection<orderLineItem> orderItem;
+	Collection<OrderLineItem> orderItem;
 	private String orderNumber;
 	private int qtyOrdered;
 	private int qtyDelivered;

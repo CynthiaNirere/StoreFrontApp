@@ -3,7 +3,7 @@ import java.util.*;
 public class Item {
 
 	Collection<StoreFront> storeItem;
-	Collection<orderLineItem> orderLine;
+	Collection<OrderLineItem> orderLine;
 	Collection<UPC> UPCsItem;
 	Collection<Price> priceItem;
 	private String description;
