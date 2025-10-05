@@ -3,7 +3,7 @@ import java.util.*;
 public class Customer {
 
 	Collection<CustomerOrder> orderCustomer;
-	private Stirng name;
+	private String name;
 	private String phoneNumber;
 	private String address;
 

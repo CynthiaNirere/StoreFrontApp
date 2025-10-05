@@ -4,7 +4,7 @@ public class Admin {
 
 	Collection<StoreFront> storeAdmin;
 	private String adminID;
-	private Store store;
+	
 
 	public Admin() {
 		// TODO - implement Admin.Admin

@@ -1,7 +1,6 @@
 public class Credit extends Payments {
 
 	private String cardType;
-	private LocalDate expiryDate;
 	private String accountNum;
 
 	public Credit() {

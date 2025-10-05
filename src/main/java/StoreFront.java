@@ -1,5 +1,5 @@
 import java.util.*;
-
+import java.time.LocalDate;
 public class StoreFront {
 
 	Admin adminStore;
@@ -8,7 +8,7 @@ public class StoreFront {
 	Collection<Item> itemStore;
 	private int storeID;
 	private String address;
-	private localDate openHours;
+	private LocalDate openHours;
 	private String storeName;
 	private Item item;
 	private TaxCategory taxCategories;
@@ -23,7 +23,7 @@ public class StoreFront {
 	 * 
 	 * @param item
 	 */
-	public void addItem(item item) {
+	public void addItem(Item item) {
 		// TODO - implement StoreFront.addItem
 		throw new UnsupportedOperationException();
 	}

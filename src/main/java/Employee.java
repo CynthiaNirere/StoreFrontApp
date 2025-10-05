@@ -30,7 +30,7 @@ public class Employee {
 	 * 
 	 * @param order
 	 */
-	public void putAwayOrder(Order order) {
+	public void putAwayOrder(CustomerOrder order) {
 		// TODO - implement Employee.putAwayOrder
 		throw new UnsupportedOperationException();
 	}
@@ -39,7 +39,7 @@ public class Employee {
 	 * 
 	 * @param order
 	 */
-	public void pickItems(Order order) {
+	public void pickItems(CustomerOrder order) {
 		// TODO - implement Employee.pickItems
 		throw new UnsupportedOperationException();
 	}

@@ -1,4 +1,5 @@
 import java.util.*;
+import java.math.BigDecimal;
 
 public class CustomerOrder {
 
@@ -8,7 +9,7 @@ public class CustomerOrder {
 	private String orderNumber;
 	private int qtyOrdered;
 	private int qtyDelivered;
-	private Payment payments;
+	private Payments payments;
 
 	public CustomerOrder() {
 		// TODO - implement CustomerOrder.CustomerOrder

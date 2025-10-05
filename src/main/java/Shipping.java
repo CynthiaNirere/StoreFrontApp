@@ -2,7 +2,7 @@ public class Shipping {
 
 	CustomerOrder orderShipping;
 	private String trackingNum;
-	private Stirng orderStatus;
+	private String orderStatus;
 
 	public Shipping() {
 		// TODO - implement Shipping.Shipping

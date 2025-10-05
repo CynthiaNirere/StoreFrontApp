@@ -1,7 +1,7 @@
 public class UPC {
 
 	Item itemUpc;
-	private Srting upc;
+	private String upc;
 
 	public UPC() {
 		// TODO - implement UPC.UPC

@@ -1,4 +1,5 @@
 import java.util.*;
+import java.time.LocalDate;
 
 public class TaxCategory {
 
@@ -14,7 +15,7 @@ public class TaxCategory {
 	 * 
 	 * @param date
 	 */
-	public void getTaxRateForDate(localDate date) {
+	public void getTaxRateForDate(LocalDate date) {
 		// TODO - implement TaxCategory.getTaxRateForDate
 		throw new UnsupportedOperationException();
 	}
